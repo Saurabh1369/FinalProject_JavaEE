@@ -11,7 +11,7 @@ import com.app.dao.IUserDao;
 import com.app.pojo.Users;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
+@CrossOrigin(origins = "https://cms-test-project1369.herokuapp.com",allowedHeaders="*")
 @RequestMapping("/users")
 public class UserController 
 {

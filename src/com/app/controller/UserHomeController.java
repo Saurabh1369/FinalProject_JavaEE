@@ -12,7 +12,7 @@ import com.app.dao.IUserHomeDao;
 import com.app.pojo.SourceAddress;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
+@CrossOrigin(origins = "https://cms-test-project1369.herokuapp.com",allowedHeaders="*")
 public class UserHomeController {
 	
 	@Autowired

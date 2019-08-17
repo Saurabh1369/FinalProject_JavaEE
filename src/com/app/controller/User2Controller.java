@@ -21,7 +21,7 @@ import com.app.pojo.States;
 import com.app.pojo.Weight;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
+@CrossOrigin(origins = "https://cms-test-project1369.herokuapp.com",allowedHeaders="*")
 public class User2Controller {
 	
 	@Autowired
